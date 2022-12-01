@@ -3,7 +3,6 @@ adventure of code - day 1
 """
 
 calories_sum_list, elfs_calories = [], []
-highest_calorie = 0
 
 with open("calories_list.txt", encoding="utf-8") as calories_data:
     one_elf = []
@@ -21,20 +20,17 @@ with open("calories_list.txt", encoding="utf-8") as calories_data:
 for elf in elfs_calories:
     elf_max_calories = 0
 
-    for calories in elf:
-        elf_max_calories += int(calories)
+    for calorie in elf:
+        elf_max_calories += int(calorie)
         calories_sum_list.append(elf_max_calories)
 
-    if elf_max_calories > highest_calorie:
-        highest_calorie = elf_max_calories
+calories_sum_list.sort(reverse=True)
 
 print(
     f"[Part 1] How many total Calories "
     "is that Elf carrying? Its carrying "
-    f"{highest_calorie} calories"
+    f"{calories_sum_list[0]} calories"
 )
-
-calories_sum_list.sort(reverse=True)
 
 print(
     f"[Part 2] How many Calories are those "
