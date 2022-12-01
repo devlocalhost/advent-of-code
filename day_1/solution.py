@@ -1,5 +1,5 @@
 """
-adventure of code - day 1
+advent of code - day 1
 """
 
 calories_sum_list, elfs_calories = [], []
