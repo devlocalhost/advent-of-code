@@ -7,7 +7,7 @@ code: `990225-c030d5e9`. join it by entering the code [here](https://adventofcod
 
 # days
 
-1. day 1: [completed](../../tree/main/day_1)
-2. day 2: [completed](../../tree/main/day_2)
-3. day 3: [completed](../../tree/main/day_3)
-4. day 4: [completed](../../tree/main/day_4)
+1. [completed](../../tree/main/day_1)
+2. [completed](../../tree/main/day_2)
+3. [completed](../../tree/main/day_3)
+4. [completed](../../tree/main/day_4)
