@@ -6,3 +6,4 @@ My (bad?) solutions for advent of code puzzles. I dont think i have to say anyth
 
 # 2023
 - day 1 completed, only part 1
+- day 2 completed, only part 1
